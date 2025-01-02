@@ -1,79 +1,186 @@
 /* General Reset */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Header */
-  header {
-    text-align: center;
-    background: linear-gradient(to right, #56ccf2, #2f80ed);
-    color: white;
-    padding: 2em 1em;
-  }
-  
-  header img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    margin-bottom: 1em;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 2.5em;
-  }
-  
-  header p {
-    font-size: 1.2em;
-  }
-  
-  /* Main Section */
-  main {
-    padding: 2em;
-    background: #f9f9f9;
-  }
-  
-  #about {
-    text-align: center;
-    margin-bottom: 3em;
-  }
-  
-  #about h2 {
-    font-size: 2em;
-    margin-bottom: 0.5em;
-  }
-  
-  #services .cards {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1em;
-  }
-  
-  .card {
-    flex: 1;
-    min-width: 250px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 1.5em;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Footer */
-  footer {
-    text-align: center;
-    padding: 1em;
-    background: #2f80ed;
-    color: white;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  text-align: center;
+  background: linear-gradient(to right, #56ccf2, #2f80ed);
+  color: white;
+  padding: 2em 1em;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.logo p {
+  font-size: 1.2em;
+}
+
+/* Navigation */
+nav {
+  margin-top: 1em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Main Section */
+main {
+  padding: 2em;
+  background: #f9f9f9;
+}
+
+#about {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+#about h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+#services .cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.card {
+  flex: 1;
+  min-width: 250px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5em;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section */
+#contact {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+  text-align: center;
+  color: #2f80ed;
+}
+
+.contact-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-info p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.contact-info a {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#contact input,
+#contact textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#contact button {
+  padding: 10px;
+  background-color: #2f80ed;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+  background-color: #56ccf2;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #2f80ed;
+  color: white;
+  margin-top: auto;
+}
+
+/* Additional Styles for Flexbox Layout */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
