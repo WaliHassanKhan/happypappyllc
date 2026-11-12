@@ -7,21 +7,22 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
   <header>
     <div class="logo">
       <h1>Happy Pappy LLC</h1>
       <p>Your Partner in App Development & Software Solutions</p>
     </div>
-    <nav>
+    <nav aria-label="Main Navigation">
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html" aria-current="page">Home</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="privacy.html">Privacy Policy</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
+  <main id="main-content" tabindex="-1">
     <section id="about">
       <h2>What We Do</h2>
       <p>
@@ -52,7 +53,7 @@
   </main>
 
   <footer>
-    <p>© 2026 Happy Pappy LLC</p>
+    <p>© 2026 Happy Pappy LLC · <a href="mailto:support@pappyship.com" class="footer-link">Accessibility Assistance</a></p>
   </footer>
 
   <script src="script.js"></script>
