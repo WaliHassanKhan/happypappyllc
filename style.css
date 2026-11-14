@@ -172,6 +172,46 @@ main {
   color: #1565c0;
 }
 
+/* Privacy Policy Section */
+#privacy-policy {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2.5em;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+}
+
+#privacy-policy h2 {
+  color: #0d47a1;
+  text-align: center;
+  margin-top: 0;
+}
+
+#privacy-policy h3 {
+  color: #0d47a1;
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.3em;
+}
+
+#privacy-policy h4 {
+  color: #1565c0;
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+}
+
+#privacy-policy ul {
+  padding-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+#privacy-policy li {
+  margin-bottom: 0.5em;
+}
+
 #contact form {
   display: flex;
   flex-direction: column;

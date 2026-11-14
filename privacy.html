@@ -27,62 +27,109 @@
     <section id="privacy-policy">
       <h2>Privacy Policy</h2>
       
-      <p><strong>Effective Date:</strong> [Insert Date]</p>
+      <p><strong>Effective Date:</strong> November 14, 2026</p>
       
-      <p>Happy Pappy LLC ("we," "our," "us") operates the Pappyship mobile application and related services (the "Service"). We value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your information when you use our Service.</p>
+      <p>Happy Pappy LLC ("we," "our," or "us") operates the <strong>Pappyship</strong> mobile application (for iOS and Android) and related services (collectively, the "Service"). We respect your privacy and are dedicated to protecting your personal information. This Privacy Policy details the types of information we collect, how it is used and shared, and your rights concerning your data.</p>
 
       <h3>1. Information We Collect</h3>
-      <p>When you use Pappyship, we may collect:</p>
+      <p>We collect information directly from you, automatically through your use of the Service, and through our integrated third-party service providers:</p>
+      
+      <h4>A. Account and Profile Information</h4>
       <ul>
-        <li><strong>Account Information:</strong> such as your name, email address, and phone number when you sign up.</li>
-        <li><strong>Subscription Information:</strong> details related to your membership with local businesses.</li>
-        <li><strong>Technical Information:</strong> basic information about your use of the Service (such as device type or log data).</li>
+        <li><strong>Account Details:</strong> Your name (customer name or provider business name), email address, and optional phone number when you register for an account.</li>
+        <li><strong>Third-Party Sign-In:</strong> If you sign in through Google Sign-In or Firebase Authentication, we receive your public profile name, email address, profile picture URL, and a unique user identifier (Firebase UID).</li>
+        <li><strong>Internal Identifiers:</strong> Internal account numbers generated to identify and manage your user account.</li>
       </ul>
-      <p>We do not directly collect or store payment information. Payments are processed securely by third-party providers (such as app stores or payment processors).</p>
+
+      <h4>B. Payment and Financial Information</h4>
+      <ul>
+        <li><strong>Payment Processing:</strong> When you purchase or manage a subscription, payments are processed directly inside the app using <strong>Stripe</strong> via its secure payment interface (Stripe PaymentSheet). Payment details (such as credit or debit card numbers, expiration dates, and security codes) and billing information are collected and processed directly by Stripe using end-to-end encryption. <strong>Happy Pappy LLC does not store or have access to raw payment card numbers or CVV codes on our servers.</strong></li>
+        <li><strong>Subscription and Transaction Records:</strong> We maintain transaction records necessary to manage your active subscriptions, including Stripe customer identifiers, subscription plan IDs, invoice numbers, payment status, and renewal dates.</li>
+        <li><strong>Provider Payout Information:</strong> For service providers selling memberships, we store your Stripe Connected Account ID and onboarding status to facilitate payment distribution via Stripe Connect.</li>
+      </ul>
+
+      <h4>C. Location and Search Information</h4>
+      <ul>
+        <li><strong>ZIP Code:</strong> You may provide a 5-digit ZIP code to discover and search for available local service providers in your area. We do not access, track, or record your device's continuous or background GPS location.</li>
+      </ul>
+
+      <h4>D. Camera Access and QR Code Scanning</h4>
+      <ul>
+        <li><strong>QR Code Scanner:</strong> With your permission, the Pappyship app requests access to your device's camera strictly to scan membership QR codes for verifying and redeeming active subscriptions in real time.</li>
+        <li><strong>On-Device Processing:</strong> The camera feed is processed in real time entirely on your device to decode the QR code. We do not capture, record, store, or transmit photos, videos, or camera recordings to our servers.</li>
+      </ul>
+
+      <h4>E. Service Provider Business Information</h4>
+      <ul>
+        <li>Service providers provide their business name, description, service offerings, subscription pricing tiers, and contact information to list memberships on the platform.</li>
+      </ul>
+
+      <h4>F. Customer Support Communications</h4>
+      <ul>
+        <li>When you contact our support team or submit an inquiry through the app, we collect your name, email address, optional phone number, subject, and the message content you provide.</li>
+      </ul>
+
+      <h4>G. Technical and Diagnostic Data</h4>
+      <ul>
+        <li>We collect standard device and operational diagnostics (such as operating system version, app version, network status, and error logs) necessary to ensure app stability, security, and performance.</li>
+      </ul>
 
       <h3>2. How We Use Your Information</h3>
-      <p>We use the information we collect to:</p>
+      <p>We use your information for legitimate business purposes, including to:</p>
       <ul>
-        <li>Provide, operate, and improve the Service.</li>
-        <li>Communicate with you regarding your account and subscriptions.</li>
-        <li>Ensure security, prevent fraud, and comply with legal obligations.</li>
+        <li><strong>Provide App Functionality:</strong> Create, maintain, and authenticate your account, and manage your user profile.</li>
+        <li><strong>Process Payments & Subscriptions:</strong> Facilitate subscription orders, process recurring billing through Stripe, and track active memberships.</li>
+        <li><strong>Facilitate Local Discovery:</strong> Match customers with local service providers and businesses based on entered ZIP codes.</li>
+        <li><strong>Verify Memberships:</strong> Enable service providers to verify customer subscription validity and process redemptions via QR code scanning.</li>
+        <li><strong>Communicate With You:</strong> Send essential service and transactional messages, such as payment confirmations, renewal receipts, and security notices.</li>
+        <li><strong>Customer Support:</strong> Respond to your requests, troubleshoot technical problems, and resolve inquiries.</li>
+        <li><strong>Security & Compliance:</strong> Prevent fraud, protect the integrity of the Service, enforce our terms, and comply with applicable laws.</li>
       </ul>
-      <p>We do not sell, rent, or trade your personal information to third parties.</p>
 
       <h3>3. Sharing of Information</h3>
-      <p>We may share information only in the following limited ways:</p>
+      <p>We share information only under the following limited circumstances:</p>
       <ul>
-        <li><strong>Service Providers:</strong> with trusted vendors who help us operate our Service (e.g., cloud storage, hosting).</li>
-        <li><strong>Legal Requirements:</strong> if required by law, regulation, or legal process.</li>
+        <li><strong>With Local Service Providers:</strong> When you purchase or redeem a membership, we share relevant subscription details (such as your name, subscription validity, and membership ID) with that specific business provider so they can honor and provide the service.</li>
+        <li><strong>With Trusted Infrastructure Providers:</strong>
+          <ul>
+            <li><strong>Stripe:</strong> For secure in-app payment processing, fraud prevention, and provider payout management.</li>
+            <li><strong>Google Firebase:</strong> For user authentication, identity verification, and secure cloud database operations.</li>
+          </ul>
+        </li>
+        <li><strong>Legal Obligations:</strong> If required to do so by applicable law, regulation, subpoena, or valid governmental request, or to protect the rights, safety, and property of Happy Pappy LLC, our users, or the public.</li>
+        <li><strong>No Sale of Data:</strong> We do <strong>not</strong> sell, rent, or trade your personal information to third parties.</li>
+        <li><strong>No Third-Party Tracking or Ads:</strong> We do <strong>not</strong> use your personal information for cross-app tracking, targeted advertising, or ad measurement, and we do not share data with data brokers.</li>
       </ul>
-      <p>We do not share your personal information with local businesses unless it is necessary to deliver the subscription or service you signed up for.</p>
 
-      <h3>4. Data Storage & Security</h3>
-      <p>Your data is stored securely on trusted third-party infrastructure. We take reasonable technical and organizational measures to protect your personal information. However, no method of transmission or storage is 100% secure, so we cannot guarantee absolute security.</p>
+      <h3>4. Data Storage, Retention, and Security</h3>
+      <p>Your data is stored securely using industry-standard technical and organizational security measures. All network communications between the Pappyship app and our servers are encrypted using Transport Layer Security (TLS/HTTPS).</p>
+      <p>We retain your personal information for as long as your account remains active or as necessary to provide the Service, resolve disputes, prevent fraud, and comply with legal, tax, and accounting requirements.</p>
 
-      <h3>5. Your Rights</h3>
-      <p>Depending on your location (e.g., EU/EEA or California), you may have the right to:</p>
+      <h3>5. Your Privacy Rights and Account Deletion</h3>
+      <p>Depending on your jurisdiction (such as California or other applicable state and international jurisdictions), you may have the right to:</p>
       <ul>
-        <li>Access the personal information we hold about you.</li>
-        <li>Request correction or deletion of your information.</li>
-        <li>Object to or restrict certain processing.</li>
-        <li>Request a copy of your information in a portable format.</li>
+        <li>Request access to the personal data we hold about you.</li>
+        <li>Request correction of inaccurate or incomplete information.</li>
+        <li>Request deletion of your account and personal data.</li>
       </ul>
-      <p>You can exercise these rights by contacting us at <a href="mailto:support@pappyship.com">support@pappyship.com</a></p>
+      <p><strong>Account Deletion:</strong> You may request the permanent deletion of your Pappyship account and all associated personal data at any time by sending an email to <a href="mailto:support@pappyship.com">support@pappyship.com</a> with the subject line <em>"Account Deletion Request"</em> from your registered account email. Upon verifying your identity, we will permanently delete your account, terminate any active subscriptions, and remove your personal information from our active databases, subject to any retention required by law (such as tax or financial record-keeping obligations).</p>
 
       <h3>6. Children's Privacy</h3>
-      <p>Our Service is not directed to children under 13, and we do not knowingly collect personal information from them. If we become aware that we have collected such information, we will delete it promptly.</p>
+      <p>Our Service is not directed to individuals under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that a child under 13 has provided us with personal information, we will take immediate steps to delete it.</p>
 
       <h3>7. International Users</h3>
-      <p>If you access our Service from outside the United States, your information may be transferred to and processed in countries where our servers are located. By using the Service, you consent to such transfers.</p>
+      <p>Our servers and operations are located in the United States. If you access the Service from outside the United States, your information will be transferred to, stored, and processed in the United States in accordance with this Privacy Policy.</p>
 
-      <h3>8. Changes to This Policy</h3>
-      <p>We may update this Privacy Policy from time to time. When we do, we will update the "Effective Date" at the top. We encourage you to review this page periodically.</p>
+      <h3>8. Changes to This Privacy Policy</h3>
+      <p>We may update this Privacy Policy from time to time. When changes are made, we will update the "Effective Date" at the top of this policy. We encourage you to review this policy periodically to stay informed about our privacy practices.</p>
 
       <h3>9. Contact Us</h3>
-      <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-      <p><strong>Happy Pappy LLC</strong><br>
-      Email: <a href="mailto:support@pappyship.com">support@pappyship.com</a></p>
+      <p>If you have any questions or concerns regarding this Privacy Policy or our data practices, please contact us at:</p>
+      <p>
+        <strong>Happy Pappy LLC</strong><br>
+        Email: <a href="mailto:support@pappyship.com">support@pappyship.com</a><br>
+        Website: <a href="https://happypappyllc.com">happypappyllc.com</a>
+      </p>
     </section>
   </main>
   <footer>
