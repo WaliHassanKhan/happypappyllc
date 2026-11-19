@@ -831,72 +831,43 @@ nav ul li a[aria-current="page"] {
    Contact Page
    ========================================================================== */
 
-#contact {
-  max-width: 680px;
-  margin: 3em auto;
-  background-color: #ffffff;
-  padding: 3em;
-  border-radius: 16px;
-  box-shadow: var(--shadow-lg);
-  border: 1px solid var(--border-color);
+.contact-brand-card {
+  width: 100%;
+  max-width: 380px;
+  text-align: left;
 }
 
-#contact h2 {
-  text-align: center;
-  color: var(--brand-navy);
-  font-size: 2.2em;
-  margin: 0 0 0.5em 0;
+.contact-brand-card h2 {
+  margin: 0 0 0.4em;
+  font-size: 1.6em;
 }
 
-#contact > p {
-  text-align: center;
-  color: var(--text-secondary);
-  font-size: 1.1em;
-  margin-bottom: 2em;
+.contact-brand-card a,
+.contact-card-link {
+  font-weight: 700;
+  overflow-wrap: anywhere;
 }
 
-.contact-card-box {
-  background: var(--bg-page);
-  border: 1px solid var(--border-color);
-  border-radius: 12px;
-  padding: 1.8em;
-  display: flex;
-  align-items: center;
-  gap: 1.2em;
-  margin-bottom: 1.5em;
+.contact-brand-card a {
+  color: #ffffff;
 }
 
-.contact-card-icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 10px;
-  background: rgba(229, 45, 39, 0.1);
-  color: var(--brand-red);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
+.contact-cards {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: 2em;
 }
 
-.contact-card-info h4 {
-  margin: 0 0 0.2em 0;
-  font-size: 1.1em;
-  color: var(--brand-navy);
-}
-
-.contact-card-info p {
-  margin: 0;
-  font-size: 1.05em;
-}
-
-.contact-card-info a {
-  color: var(--brand-red);
-  font-weight: 600;
-  text-decoration: underline;
-}
-
-.contact-card-info a:hover {
+.contact-card-link {
+  display: inline-block;
+  margin-top: 1.2em;
   color: #b31217;
+}
+
+.contact-card-link:hover {
+  color: var(--brand-navy);
 }
 
 /* ==========================================================================
@@ -1115,8 +1086,7 @@ footer {
     padding: 3.5em 1em;
   }
 
-  #privacy-policy,
-  #contact {
+  #privacy-policy {
     padding: 1.8em 1.2em;
     margin: 1.5em auto;
   }

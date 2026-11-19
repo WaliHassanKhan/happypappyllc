@@ -39,54 +39,67 @@
 
   <!-- Main Content -->
   <main id="main-content" tabindex="-1">
-    <section id="contact" aria-labelledby="contact-heading">
-      <span class="badge badge-red" style="display: block; width: fit-content; margin: 0 auto 1em;">Get In Touch</span>
-      <h2 id="contact-heading">Contact PappyShip Support</h2>
-      <p>
-        Whether you are a customer with questions about an active subscription, 
-        a service provider interested in listing your memberships, or need general assistance, 
-        we're here to help.
-      </p>
-
-      <div class="contact-card-box">
-        <div class="contact-card-icon" aria-hidden="true">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-            <polyline points="22,6 12,13 2,6"></polyline>
-          </svg>
+    <section class="hero" aria-labelledby="contact-heading">
+      <div class="hero-container">
+        <div class="hero-content">
+          <span class="badge badge-red">
+            <span class="badge-dot" aria-hidden="true"></span>
+            Get In Touch
+          </span>
+          <h1 id="contact-heading" class="hero-title">We're here to <span class="highlight">help.</span></h1>
+          <p class="hero-subtitle">
+            Have a question about PappyShip? Whether you're a customer or a service provider,
+            the Happy Pappy LLC team is here to help.
+          </p>
+          <div class="hero-actions">
+            <a href="mailto:support@pappyship.com" class="btn btn-primary">Email PappyShip Support</a>
+          </div>
         </div>
-        <div class="contact-card-info">
-          <h4>Customer & Provider Support</h4>
-          <p>Email: <a href="mailto:support@pappyship.com">support@pappyship.com</a></p>
-        </div>
-      </div>
-
-      <div class="contact-card-box">
-        <div class="contact-card-icon" aria-hidden="true">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10"></circle>
-            <polyline points="12 6 12 12 16 14"></polyline>
-          </svg>
-        </div>
-        <div class="contact-card-info">
-          <h4>Response Time</h4>
-          <p>We typically respond to inquiries within 1-2 business days.</p>
+        <div class="hero-visual">
+          <div class="overview-card-display contact-brand-card">
+            <div class="logo-center">
+              <img src="assets/pappyship_logo_256.png" alt="" width="78" height="78">
+            </div>
+            <h2>PappyShip Support</h2>
+            <p>Questions about subscriptions, memberships, or your account? Get in touch with our team.</p>
+            <a href="mailto:support@pappyship.com">support@pappyship.com</a>
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="contact-card-box">
-        <div class="contact-card-icon" aria-hidden="true">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-            <polyline points="14 2 14 8 20 8"></polyline>
-            <line x1="16" y1="13" x2="8" y2="13"></line>
-            <line x1="16" y1="17" x2="8" y2="17"></line>
-            <polyline points="10 9 9 9 8 9"></polyline>
-          </svg>
+    <section id="contact" class="section" aria-labelledby="support-heading">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="badge badge-red">PappyShip Support</span>
+          <h2 id="support-heading">How can we help?</h2>
+          <p>Contact us for help with PappyShip or to learn more about offering your services.</p>
         </div>
-        <div class="contact-card-info">
-          <h4>Account Deletion Requests</h4>
-          <p>Send an email with the subject line <em>"Account Deletion Request"</em> to <a href="mailto:support@pappyship.com">support@pappyship.com</a>.</p>
+        <div class="contact-cards">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <h3>Customer &amp; Provider Support</h3>
+            <p>For subscription questions, provider inquiries, or general assistance, email our team. We typically respond within 1-2 business days.</p>
+            <a class="contact-card-link" href="mailto:support@pappyship.com">support@pappyship.com</a>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+              </svg>
+            </div>
+            <h3>Account Deletion Requests</h3>
+            <p>From your registered account email, send us a message with the subject line <em>"Account Deletion Request"</em>.</p>
+            <a class="contact-card-link" href="mailto:support@pappyship.com?subject=Account%20Deletion%20Request">Request account deletion</a>
+          </article>
         </div>
       </div>
     </section>
