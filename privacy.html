@@ -3,31 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy - Happy Pappy LLC</title>
-  <link rel="icon" type="image/jpeg" href="assets/papyship_logo.jpg">
+  <title>Privacy Policy - PappyShip | Happy Pappy LLC</title>
+  <meta name="description" content="Privacy Policy for the PappyShip mobile application and services, operated by Happy Pappy LLC.">
+  <link rel="icon" type="image/png" href="assets/pappyship_logo_256.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
   <header>
-    <div class="logo">
-      <h1>Happy Pappy LLC</h1>
-      <p>Your Partner in App Development & Software Solutions</p>
+    <div class="header-container">
+      <a href="index.html" class="brand" aria-label="PappyShip by Happy Pappy LLC Home">
+        <div class="brand-logo-frame">
+          <img src="assets/pappyship_logo_256.png" alt="PappyShip Logo" class="brand-logo-img" width="44" height="44">
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">Pappy<span>Ship</span></span>
+          <span class="brand-subtitle">by Happy Pappy LLC</span>
+        </div>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about-pappyship">About PappyShip</a></li>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="index.html#for-providers">For Businesses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html" aria-current="page">Privacy Policy</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav aria-label="Main Navigation">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="privacy.html" aria-current="page">Privacy Policy</a></li>
-      </ul>
-    </nav>
   </header>
 
   <main id="main-content" tabindex="-1">
-    <section id="privacy-policy">
-      <h2>Privacy Policy</h2>
+    <section id="privacy-policy" aria-labelledby="policy-heading">
+      <span class="badge badge-red" style="display: block; width: fit-content; margin: 0 auto 1em;">Legal & Privacy</span>
+      <h2 id="policy-heading">Privacy Policy</h2>
       
-      <p><strong>Effective Date:</strong> November 14, 2026</p>
+      <p class="effective-date"><strong>Effective Date:</strong> November 14, 2026</p>
       
       <p>Happy Pappy LLC ("we," "our," or "us") operates the <strong>Pappyship</strong> mobile application (for iOS and Android) and related services (collectively, the "Service"). We respect your privacy and are dedicated to protecting your personal information. This Privacy Policy details the types of information we collect, how it is used and shared, and your rights concerning your data.</p>
 
@@ -132,8 +147,54 @@
       </p>
     </section>
   </main>
+
+  <!-- Footer -->
   <footer>
-    <p>© 2026 Happy Pappy LLC · <a href="mailto:support@pappyship.com" class="footer-link">Accessibility Assistance</a></p>
+    <div class="footer-container">
+      <div class="footer-brand">
+        <a href="index.html" class="brand" aria-label="PappyShip by Happy Pappy LLC">
+          <div class="brand-logo-frame">
+            <img src="assets/pappyship_logo_256.png" alt="PappyShip Logo" class="brand-logo-img" width="44" height="44">
+          </div>
+          <div class="brand-text">
+            <span class="brand-title">Pappy<span>Ship</span></span>
+            <span class="brand-subtitle">by Happy Pappy LLC</span>
+          </div>
+        </a>
+        <p>
+          The smart mobile subscription marketplace for neighborhood services. 
+          Developed, operated, and maintained by Happy Pappy LLC.
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Explore PappyShip</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about-pappyship">About PappyShip</a></li>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="index.html#for-providers">For Providers</a></li>
+          <li><a href="index.html#about-company">About Happy Pappy LLC</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Support & Legal</h4>
+        <ul>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="mailto:support@pappyship.com">support@pappyship.com</a></li>
+          <li><a href="mailto:support@pappyship.com" class="footer-link">Accessibility Assistance</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>© 2026 Happy Pappy LLC. All rights reserved.</div>
+      <div>PappyShip™ is a trademark of Happy Pappy LLC.</div>
+    </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
